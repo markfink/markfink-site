@@ -27,7 +27,7 @@ description: Mark Fink cloud solutions blog
 
 # List of links in the navigation bar
 navbar-links:
-  Blog: "blog"
+  Blog: ""
   CV: "cv"
   Contact: "about"
 
