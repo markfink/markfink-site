@@ -1,3 +1,3 @@
 Mark Fink cloud solutions blog
 
-please visit https://www.mark-fink.de
+please visit http://www.mark-fink.de
