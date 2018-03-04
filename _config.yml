@@ -13,9 +13,6 @@ title: Mark Fink
 # Short description of your site
 description: Mark Fink cloud solutions blog
 
-
-
-
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
 #baseurl: "/projectname"
@@ -28,7 +25,7 @@ description: Mark Fink cloud solutions blog
 # List of links in the navigation bar
 navbar-links:
   Blog: ""
-  CV: "cv"
+  CV: "MarkFink_qualification_profile.pdf"
   Contact: "about"
 
 # Image to show in the navigation bar - image must be a square (width = height)
