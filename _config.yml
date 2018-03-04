@@ -171,9 +171,14 @@ link-tags: true
 # Exclude these files from production site
 exclude:
   - CNAME
+  - CHANGELOG.md
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
   - LICENSE
   - README.md
-
+  - Vagrantfile
+  
 # prose.io config
 prose:
   rooturl: '_posts'
