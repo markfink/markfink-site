@@ -6,7 +6,7 @@ bigimg: /img/path.jpg
 tags: [agile, cloud]
 ---
 
-![A Lumberjack](https://commons.wikimedia.org/wiki/File%3AJohn_as_a_lumberjack.jpg)
+![A Lumberjack](https://upload.wikimedia.org/wikipedia/commons/3/3d/John_as_a_lumberjack.jpg)
 
 Stephen Covey tells the story of a man who was walking through a forest when he came across a frustrated lumberjack. The lumberjack was trying to cut down a tree and was swearing and cursing.
 
@@ -82,5 +82,5 @@ All the best, Mark
 ## Resources
 
 * [Lumberjack by Karloloflovblad](https://commons.wikimedia.org/wiki/File:John_as_a_lumberjack.jpg)
-* [Stephen_Covey](https://en.wikipedia.org/wiki/Stephen_Covey)
+* [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey)
 * [Mike Rother - Toyota Kata](https://www.youtube.com/watch?v=fYoppX3VHIY)
