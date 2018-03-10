@@ -30,7 +30,7 @@ pointless frustration.
 ~~~
 
 
-I think we can learn a lot from this story. In my time I have meet some software engineers who struggles with a similar kind of a dilemma. Do I stop and optimize my work environment so I can work more efficient - or do I keep pressing on? To me this even represents the ultimate struggle of life itself. Every day we face new challenges and we try to overcome and to perform as efficient as possible.
+I think we can learn a lot from this story. In my time I have met software engineers who struggled with a similar kind of a dilemma. Do I stop and optimize my work environment so I can work more efficiently - or do I keep pressing on? To me this even represents the ultimate struggle of life itself. Every day we face new challenges and we try to overcome and to perform as efficient as possible.
 
 I invite you to take the time and to stop and talk to the lamenting lumberjack. In the majority of cases the response you will get is something like "sure this works for Unicorns like Google and Facebook! but not for us".
 
