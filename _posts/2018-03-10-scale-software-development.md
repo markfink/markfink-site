@@ -10,6 +10,7 @@ tags: [agile, cloud]
 
 Stephen Covey tells the story of a man who was walking through a forest when he came across a frustrated lumberjack. The lumberjack was trying to cut down a tree and was swearing and cursing.
 
+~~~
 "What's the problem?"  The man asked.
 
 "My saw's blunt and won't cut the tree properly."  The lumberjack responded.
@@ -23,6 +24,7 @@ Stephen Covey tells the story of a man who was walking through a forest when he 
 "But I don't have time to stop!"  The lumberjack retorted, getting more frustrated.
 
 The man shook his head and kept on walking, leaving the lumberjack to his pointless frustration.
+~~~
 
 
 I think we can learn a lot from this story. In my time I have meet some software engineers who struggles with a similar kind of a dilemma. Do I stop and optimize my work environment so I can work more efficient - or do I keep pressing on? To me this even represents the ultimate struggle of life itself. Every day we face new challenges and we try to overcome and to perform as efficient as possible.
