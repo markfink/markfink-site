@@ -19,11 +19,14 @@ Stephen Covey tells the story of a man who was walking through a forest when he 
 
 "Because then I would have to stop sawing."  Said the lumberjack.
 
-"But if you sharpened your saw, you could cut more efficiently and effectively than before."
+"But if you sharpened your saw, you could cut more efficiently and 
+effectively than before."
 
-"But I don't have time to stop!"  The lumberjack retorted, getting more frustrated.
+"But I don't have time to stop!"  The lumberjack retorted, getting more 
+frustrated.
 
-The man shook his head and kept on walking, leaving the lumberjack to his pointless frustration.
+The man shook his head and kept on walking, leaving the lumberjack to his 
+pointless frustration.
 ~~~
 
 
