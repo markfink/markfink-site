@@ -25,15 +25,15 @@ Stephen Covey tells the story of a man who was walking through a forest when he 
 The man shook his head and kept on walking, leaving the lumberjack to his pointless frustration.
 
 
-I think we can learn a lot from this story. In my time I have meet some software engineers who struggle with a similar kind of a dilemma. Do I stop and optimize my work environment so I can work more efficient - or do I keep pressing on? To me this even represents the ultimate struggle of life itself. Every day we face new challenges and we try to overcome and to perform as efficient as possible.
+I think we can learn a lot from this story. In my time I have meet some software engineers who struggles with a similar kind of a dilemma. Do I stop and optimize my work environment so I can work more efficient - or do I keep pressing on? To me this even represents the ultimate struggle of life itself. Every day we face new challenges and we try to overcome and to perform as efficient as possible.
 
-I invite you to take the time and to stop and talk to the lamenting lumberjack. In majority of cases the response you will get is "sure this works for Unicorns like Google and Facebook! but not for us".
+I invite you to take the time and to stop and talk to the lamenting lumberjack. In the majority of cases the response you will get is something like "sure this works for Unicorns like Google and Facebook! but not for us".
 
-Gary Gruver in 2008 transformed the struggling HP laserjet business and the project itself and learnings have been well documented. "Large-Scale Agile Development" has been proven in the field being "applied with horses AND unicorns alike". 
+Gary Gruver in 2008 transformed the struggling HP laserjet business and the project and learnings have been very well documented. "Large-Scale Agile Development" has been proven in the field being "applied with horses AND unicorns alike". 
 
-This approach is not focusing on a particular tool like scrum but on "solving the problem on how teams work together". This is what I like most with Gary's formula it is centered around "business objectives" and NOT "tools". So the formula helps you tailor the solution to your problem not just stocking new tools. Or in Gary's words "you end up with a Water-Scrum-Fall if you do not solve this!".
+The approach is not focusing on a particular tool like scrum but on "solving the problem on how teams work together". What I like most with Gary's formula is that it is centered around "business objectives" and NOT "tools". So the formula helps you tailor the solution to your organizations problem not just stocking new tools. Or as Gary puts it "you end up with a Water-Scrum-Fall if you do not solve this!".
 
-This proven formula is available for over a decade now. Gary is doing an excellent job in honing, documenting, and evangelizing it for about the same time now. He put on a few extra years of experience with it and recently made another great presentation:
+This proven formula is available for over a decade now. Gary is doing an excellent job in honing, documenting, and evangelizing it for about the same time now. He put on a few extra years of experience with it and recently gave another great presentation:
 
 [![Gary Gruver Making the Enterprise Agile](https://img.youtube.com/vi/Z2HPFyB_BIs/0.jpg)](https://www.youtube.com/watch?v=Z2HPFyB_BIs)
 
@@ -58,13 +58,13 @@ You need to work on most important things first, **start with principles**:
 Don't get lost in the practices - pull back to the principles!
 
 
-I also can recommend Gary's book as resource and insightful. I always keep it handy together with my Toyota-Kata book.
+I also can recommend Gary's book as full of resources and insights. I always keep it handy together with my Toyota-Kata book.
 
 [![Large-Scale Agile Development](https://images-na.ssl-images-amazon.com/images/I/513cZZuBiYL._SX387_BO1,204,203,200_.jpg)](https://www.amazon.com/Practical-Approach-Large-Scale-Agile-Development/dp/0321821726)
 
 Again the mantra of Gary's formula: "Either automate, eliminate, or engineer OUT the drivers that aren’t key to the value proposition".
 
-By turning the path into this simple formula it is supposed to make it very easy to get started and to stay focused and on track.
+By turning the path into this simple formula it makes it very easy to get started and to stay focused and on track.
 
 If you look closely into this formula you realize that "automation" (like automated deployments and tests) is considered key as enabling technology for scaling software development. 
 
