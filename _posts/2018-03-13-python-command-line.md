@@ -2,6 +2,8 @@
 layout: post
 title: Awesome CLI
 subtitle: Recording @ Pycon Florence 2017
+gh-repo: finklabs/whaaaaat
+gh-badge: [star, fork, follow]
 tags: [python, CLI]
 ---
 
