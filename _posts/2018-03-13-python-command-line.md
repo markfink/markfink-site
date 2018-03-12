@@ -21,3 +21,4 @@ Mark
 ## Resources
 
 * [Inquirer.js port to Python](https://github.com/finklabs/whaaaaat)
+* [Pycon Italia](https://www.youtube.com/channel/UCOyJ9ritUBmjXhoRXOFahJA)
