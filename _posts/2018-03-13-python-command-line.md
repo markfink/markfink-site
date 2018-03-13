@@ -14,7 +14,6 @@ Terminal programming can get hairy, especially if you want to support multiple p
 [![Mark Fink, Awesome CLI, Pycon Florence 2017](https://img.youtube.com/vi/Y3aoqqFmc70/0.jpg)](https://www.youtube.com/watch?v=Y3aoqqFmc70)
 
 
-
 I hope this talk is helpful to you.
 
 Mark

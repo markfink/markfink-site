@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Large-scale agile development
-subtitle: working efficiently in the cloud-age
+title: Stop chaos today! Increase effectiveness by 2x to 3x
+subtitle: scale agile development in the cloud-age
 bigimg: /img/path.jpg
-tags: [agile, cloud]
+tags: [agile, cloud, DevOps]
 ---
 
 ![A Lumberjack](https://upload.wikimedia.org/wikipedia/commons/3/3d/John_as_a_lumberjack.jpg)
