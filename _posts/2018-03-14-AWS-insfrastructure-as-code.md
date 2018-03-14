@@ -12,7 +12,7 @@ I gave a presentation on Janary 2018 on the topic of "automated AWS deployments"
 
 I really enjoyed the conference, the presentation and the Q&A session afterwards.
 
-The presentation gives a complete Infrastructure-As-Code example using the **fink tool** to deploy to AWS. Required dependencies and setups like AWS organizations and multi-account setup are explained.
+The presentation gives a complete Infrastructure-As-Code example using the **fink tool** to deploy to AWS. Prerequisites and setups like AWS organizations and multi-account setup are explained.
 
 
 [![Mark Fink, Automated AWS Deployments, @AutomationGuild Conference 2018](https://img.youtube.com/vi/D-HbIV7WPxo/0.jpg)](https://www.youtube.com/watch?v=D-HbIV7WPxo)
