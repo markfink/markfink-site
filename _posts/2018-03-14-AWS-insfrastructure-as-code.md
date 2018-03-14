@@ -25,4 +25,4 @@ Mark
 ## Resources
 
 * [fink Infrastructure-as-Code tool](https://github.com/finklabs/fink)
-* [AutomationGuild Conference 2018](https://automationguild.com/)
+* [@AutomationGuild Conference 2018](https://automationguild.com/)
