@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stop chaos today! Increase effectiveness by 2x to 3x
-subtitle: scale agile development in the cloud-age
+subtitle: howto scale agile development in the cloud-age
 bigimg: /img/path.jpg
 tags: [agile, cloud, DevOps]
 ---

@@ -4,7 +4,7 @@ title: Awesome CLI
 subtitle: Recording @ Pycon Florence 2017
 gh-repo: finklabs/whaaaaat
 gh-badge: [star, fork]
-tags: [python, CLI]
+tags: [python, CLI, DevOps]
 ---
 
 The terminal emulators we run so many of our programming tools in are more powerful than we give them credit for, and the key to that power is understanding the interface. This talk will cover terminal colors and styles, writing to arbitrary portions of the screen, handling signals from the terminal, determining the terminal's dimensions and scrollback buffer behavior.
