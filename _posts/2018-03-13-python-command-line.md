@@ -2,7 +2,7 @@
 layout: post
 title: Awesome CLI
 subtitle: Recording @ Pycon Florence 2017
-bigimg: /img/taras-shypka-424928-unsplash.png
+bigimg: /img/blake-connally-373084-unsplash.png
 gh-repo: finklabs/whaaaaat
 gh-badge: [star, fork]
 tags: [python, CLI, DevOps]
