@@ -6,7 +6,7 @@ bigimg: /img/david-hellmann-612675-unsplash.png
 tags: [agile, cloud, DevOps]
 ---
 
-Stephen Covey tells the story of a man who was walking through a forest when he came across a frustrated lumberjack. The lumberjack was trying to cut down a tree and was swearing and cursing.
+Stephen Covey tells the story of a man who came through a forest when he meet a frustrated lumberjack. The lumberjack was trying to cut down a tree and was swearing and cursing.
 
 ~~~
 "What's the problem?"  The man asked.
