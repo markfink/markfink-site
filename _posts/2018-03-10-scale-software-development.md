@@ -2,11 +2,9 @@
 layout: post
 title: Stop chaos today! Increase effectiveness by 2x to 3x
 subtitle: howto scale agile development in the cloud-age
-bigimg: /img/zhipeng-ya-345515-unsplash.png
+bigimg: /img/david-hellmann-612675-unsplash.png
 tags: [agile, cloud, DevOps]
 ---
-
-![A Lumberjack](https://upload.wikimedia.org/wikipedia/commons/3/3d/John_as_a_lumberjack.jpg)
 
 Stephen Covey tells the story of a man who was walking through a forest when he came across a frustrated lumberjack. The lumberjack was trying to cut down a tree and was swearing and cursing.
 
