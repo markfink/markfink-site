@@ -2,7 +2,7 @@
 _site
 .sass-cache
 .vagrant
-img/
+img/*-unsplash.jpg
 
 # general
 .DS_Store

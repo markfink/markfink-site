@@ -2,7 +2,7 @@
 layout: post
 title: You want to automate your AWS deployments? look no further!
 subtitle: Recording @AutomationGuild 2018
-bigimg: /img/caleb-woods-395775-unsplash.jpg
+bigimg: /img/caleb-woods-395775-unsplash.png
 gh-repo: finklabs/fink
 gh-badge: [star, fork]
 tags: [AWS, DevOps, microservice]
