@@ -306,6 +306,12 @@ footer .theme-by {
   }
 }
 
+/* --- Author Bio --- */
+
+.author-bio {
+  border-top: 1px solid #eee;
+}
+
 /* --- Post preview --- */
 
 .post-preview {
