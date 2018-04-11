@@ -84,6 +84,5 @@ All the best, Mark
 
 ## Resources
 
-* [Lumberjack by Karloloflovblad](https://commons.wikimedia.org/wiki/File:John_as_a_lumberjack.jpg)
 * [Stephen Covey](https://en.wikipedia.org/wiki/Stephen_Covey)
 * [Mike Rother - Toyota Kata](https://www.youtube.com/watch?v=fYoppX3VHIY)
