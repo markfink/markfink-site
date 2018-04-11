@@ -10,9 +10,9 @@ You might ask yourself what a 30 year old book on information systems has to off
 
 Many big (international) organizations are captured by technical debt. Often they look back on more than 50 years of centralized mainframe based development. 80-90 % of the IT budgets are eaten up to keep the system running. Cost and technical challenges limit the scope of action.
 
-Migrating a legacy system is one of the riskiest IT project endeavors one can partake. So the key aspect in such an endeavor is project steering and management. It is most important is to address the risk by applying an incremental approach which is clearly defined and communicated. And this exactly is what the book delivers.
+Migrating a legacy system is one of the riskiest IT project endeavors one can partake. So the key aspect in such an endeavor is project steering and management. It is most important to address the risk by applying an incremental approach which is clearly defined and communicated. And this is exactly what the book delivers.
 
-The goal of a legacy system migration in many cases is to break down a monolithic application which is costly to operate and resistant to changes into maintainable independent components that allows to add new features efficiently. The IT system is operational and fully functional during the whole migration process (no parallel operation of two systems, no switch over on launch-date!).
+The goal of a legacy system migration in many cases is to break down a monolithic application which is costly to operate and resistant to changes into maintainable independent components that allow to add new features efficiently. Besides the risk mitigation another key difference to the Big-Bang approach is that the IT system is operational and fully functional during the whole migration process (no parallel operation of two systems, no switch over on launch-date!).
 
 Brodie and Stonebraker propose an evolutionary, incremental approach which they call Chicken-Little. Each increment consists of up to eleven steps some of which can be carried out in parallel.
 
