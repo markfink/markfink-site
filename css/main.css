@@ -306,6 +306,12 @@ footer .theme-by {
   }
 }
 
+/* --- Author Bio --- */
+
+.author-bio p {
+  margin: 10px 0;
+}
+
 /* --- Post preview --- */
 
 .post-preview {
@@ -703,7 +709,7 @@ td.gutter {
 #social-share-section {
   margin-bottom: 10px;
   padding-bottom: 20px;
-  border-bottomp: 2px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 
 /* --- Notification boxes --- */
