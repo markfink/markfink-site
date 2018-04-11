@@ -306,13 +306,6 @@ footer .theme-by {
   }
 }
 
-/* --- Author Bio --- */
-
-.author-bio p {
-  padding: 5px 0 0;
-  border-top: 2px solid #eee;
-}
-
 /* --- Post preview --- */
 
 .post-preview {
@@ -708,7 +701,9 @@ td.gutter {
 /* --- Social media sharing section --- */
 
 #social-share-section {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottomp: 2px solid #eee;
 }
 
 /* --- Notification boxes --- */
