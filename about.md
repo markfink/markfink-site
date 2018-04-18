@@ -21,7 +21,7 @@ I write about technical topics that interest me (professionally). My focus is on
 
 SRE shows tremendous synergies with CI in areas like for example automation tools and techniques, preparation & installation of test- and production- environments, and monitoring.
 
-![Site Reliability Engineering Infographic]({{ "/media/sre_infographic.png" | absolute_url }}){:width=600}
+![Site Reliability Engineering Infographic]({{ "/media/sre_infographic.png" | absolute_url }})
 
 
 ## Resources
