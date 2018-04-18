@@ -25,8 +25,9 @@ description: Mark Fink cloud solutions blog
 # List of links in the navigation bar
 navbar-links:
   Blog: ""
+  About: "about"
   CV: "MarkFink_qualification_profile.pdf"
-  Contact: "about"
+  Contact: "contact"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -69,9 +70,9 @@ author:
 # You can reorder the items to define the link order.
 # If you want to add a new link that isn't here, you'll need to also edit the file _data/SocialNetworks.yml
 social-network-links:
-  email: "mark@mark-fink.de"
   github: markfink
   twitter: markfink
+#  email: "bla@blub.de"
 #  facebook: daattali
 #  reddit: yourname
 #  google-plus: +DeanAttali
@@ -231,6 +232,7 @@ prose:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189
