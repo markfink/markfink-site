@@ -93,9 +93,9 @@ share-links-active:
   email: true
   github: true
   twitter: true
-  facebook: false
+  facebook: true
   rss: true
-  linkedin: false
+  linkedin: true
   stackoverflow: false
 
 # How to display the link to the website in the footer
