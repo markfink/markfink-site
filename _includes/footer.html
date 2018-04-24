@@ -11,6 +11,8 @@
               <a href="{{ '/feed.xml' | prepend: site.baseurl }}" title="{{ element.name }}">
             {%- elsif curkey == 'yelp' -%}
               <a href="https://{{ site.social-network-links[curkey] }}.yelp.com" title="{{ element.name }}">
+            {%- elsif curkey == 'newsletter' -%}
+              <a href="{{ element.baseURL }}" title="{{ element.name }}">
             {%- else -%}
               <a href="{{element.baseURL}}{{ site.social-network-links[curkey] }}" title="{{ element.name }}">
             {%- endif -%}

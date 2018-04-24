@@ -95,3 +95,8 @@ yelp:
   name: "Yelp"
   baseURL: "https://{{ site.author.yelp }}.yelp.com"
   icon: "fa-yelp"
+
+newsletter:
+  name: "Newsletter"
+  baseURL: "{{ "/newsletter/" | absolute_url }}"
+  icon: "fa-envelope"
