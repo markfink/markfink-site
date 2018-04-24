@@ -98,5 +98,5 @@ yelp:
 
 newsletter:
   name: "Newsletter"
-  baseURL: "{{ site.url}}/newsletter/"
+  baseURL: "{{ site.url }}/newsletter/"
   icon: "fa-envelope"
