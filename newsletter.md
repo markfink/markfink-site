@@ -16,7 +16,7 @@ Please signup for the monthly newsletter. No spam. You can unsubscribe at any ti
 <div id="mc_embed_signup">
 <form action="https://finklabs.us12.list-manage.com/subscribe/post?u=ac33ed4e113358072db9d4cfc&amp;id=7efbb5acc5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<h2>Newsletter signup.</h2>
+	<h2>Subscribe to our newsletter</h2>
 <div class="mc-field-group">
 	<label for="mce-EMAIL">Email Address </label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
