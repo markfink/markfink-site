@@ -98,5 +98,5 @@ yelp:
 
 newsletter:
   name: "Newsletter"
-  baseURL: "{{ '/newsletter/' | absolute_url }}"
+  baseURL: "{{ site.url}}/newsletter/"
   icon: "fa-envelope"
