@@ -3,7 +3,7 @@ layout: post
 title: Book review "Migrating Legacy Systems"
 subtitle: Michael L. Brodie, Michael Stonebraker, 1995
 bigimg: /img/michal-parzuchowski-224092-unsplash.png
-tags: [book, migration, gateway, software development]
+tags: [book review, migration, gateway, software development]
 ---
 
 You might ask yourself what a 30 year old book on information systems has to offer. I first read the book during literature research for my masters thesis in 2001. At the time I already had a few years of experience delivering custom made IT systems to enterprise customers. From that I had first hand experience what it meant to gather a bunch of programmers to work on a one-off solution before everybody moved on to the next gig. The traditional approach to "Migrating Legacy Systems" is a Big-Bang migration which is unfeasible and failure is inevitable. An incremental approach using Baby-Steps is the only way. I am sure this book is one of a few that had a profound and lasting influence on my own work. 

@@ -3,7 +3,7 @@ layout: post
 title: Book review "Software Design X-Rays"
 subtitle: Adam Tornhill, 2018
 bigimg: /img/ricardo-resende-437822-unsplash.png
-tags: [book, metrics, software development, visualization]
+tags: [book review, metrics, software development, visualization]
 ---
 
 "Software Design X-Rays" is Adam Tornhills 2nd book on the topic of "statistical code analysis" which expands on his previous book. I think about the book as a pragmatic guide book on overcoming learning plateaus in software development organizations. I wish it were required reading for decision makers in such organizations.
