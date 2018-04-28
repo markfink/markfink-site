@@ -53,4 +53,6 @@ All the best, Mark
 
 ## Resources
 
-* [Software Design X-Rays](https://www.amazon.com/Software-Design-X-Rays-Technical-Behavioral/dp/1680502727/)
+* [Software Design X-Rays](https://pragprog.com/book/atevol/software-design-x-rays)
+* [Repositories used in the book](https://github.com/SoftwareDesignXRays)
+* [Discussion Forum](https://forums.pragprog.com/forums/472)
