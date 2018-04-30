@@ -69,7 +69,6 @@ Here the result:
 [script] -down-> [Line]
 {% endplantuml %}
 
-
 I hope this information is helpful to you.
 
 All the best, Mark
