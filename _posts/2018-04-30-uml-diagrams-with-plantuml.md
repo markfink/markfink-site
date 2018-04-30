@@ -64,9 +64,11 @@ ThirdActor ----> (LowerCase)
 
 Here the result:
 
-{% plantuml style="width:30%" %}
-[script] -down-> [log]
-[script] -down-> [Line]
+{% plantuml %}
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response	
 {% endplantuml %}
 
 I hope this information is helpful to you.
