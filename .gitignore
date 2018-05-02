@@ -3,8 +3,10 @@ _site
 .sass-cache
 .vagrant
 img/*-unsplash.jpg
+uml/
 
 # general
 .DS_Store
 Thumbs.db
 ehthumbs.db
+.jekyll-metadata

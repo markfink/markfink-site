@@ -231,17 +231,10 @@ prose:
           help: "Check to publish post, uncheck to hide."
 
 plugins:
-  - jekyll-plantuml
+  - jekyll-plantuml-uml
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-
-
-#plantuml:
-#  url:          'http://www.plantuml.com/plantuml/'
-#  type:         'svg'
-#  ssl_noverify: '0'
-#  http_debug:   '0'
 
 # Beautiful Jekyll / Dean Attali
 # 2fc73a3a967e97599c9763d05e564189

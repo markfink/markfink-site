@@ -1,0 +1,121 @@
+---
+layout: post
+title: Beautiful UML Diagrams
+subtitle: using PlantUML
+bigimg: /img/uml-sample.png
+tags: [visualization, software engineering]
+---
+
+I like the dot and Graphviz tools and used them in many projects to visualize complex graphs or to create overviews. These visualizations are easy to make and there is ample of tool support. For many years I did not use UML diagrams (beyond whiteboards) because it was painful.
+
+I recently discovered that the situation changed. PlantUML provides us with decent tooling to get UML diagrams going. I checked for support in IntelliJ, Sphinx, and Jekyll. On top of that PlantUML generates SVG / PNG images for universal use.
+
+There are two PlantUML features which make it very productive:
+
+* diagrams can we quickly written in any text editor (i.e. use text files) 
+* no need to bother tweaking the layout of elements - PlantUML finds the best position of diagram elements for you
+
+
+Let's have a look! The following snippet shows how a diagram is "written" in PlantUML:
+
+{% highlight text %}
+@startuml
+actor "Main Database" as DB << Application >>
+
+note left of DB
+  This actor 
+  has a "name with spaces",
+  an alias
+  and a stereotype 
+end note
+
+actor User << Human >>
+actor SpecialisedUser
+actor Administrator
+
+User <|--- SpecialisedUser
+User <|--- Administrator
+
+usecase (Use the application) as (Use) << Main >>
+usecase (Configure the application) as (Config)
+Use ..> Config : <<includes>>
+
+User --> Use
+DB --> Use
+
+Administrator --> Config 
+
+note "This note applies to\nboth actors." as MyNote
+MyNote .. Administrator
+MyNote .. SpecialisedUser
+
+'  this is a text comment and won't be displayed
+AnotherActor ---> (AnotherUseCase)
+
+'  to increase the length of the edges, just add extras dashes, like this:
+ThirdActor ----> (LowerCase)
+
+'  The direction of the edge can also be reversed, like this:
+(UpperCase) <---- FourthActor
+
+@enduml
+{% endhighlight %}
+
+
+Here the resulting UML diagram:
+
+{% plantuml %}
+@startuml
+actor "Main Database" as DB << Application >>
+
+note left of DB
+  This actor 
+  has a "name with spaces",
+  an alias
+  and a stereotype 
+end note
+
+actor User << Human >>
+actor SpecialisedUser
+actor Administrator
+
+User <|--- SpecialisedUser
+User <|--- Administrator
+
+usecase (Use the application) as (Use) << Main >>
+usecase (Configure the application) as (Config)
+Use ..> Config : <<includes>>
+
+User --> Use
+DB --> Use
+
+Administrator --> Config 
+
+note "This note applies to\nboth actors." as MyNote
+MyNote .. Administrator
+MyNote .. SpecialisedUser
+
+'  this is a text comment and won't be displayed
+AnotherActor ---> (AnotherUseCase)
+
+'  to increase the length of the edges, just add extras dashes, like this:
+ThirdActor ----> (LowerCase)
+
+'  The direction of the edge can also be reversed, like this:
+(UpperCase) <---- FourthActor
+
+@enduml
+{% endplantuml %}
+
+I hope this information is helpful to you.
+
+All the best, Mark
+
+
+## Resources
+
+* [PlantUML](http://plantuml.com/)
+* [PlantUML for Jekyll](https://www.rubydoc.info/gems/jekyll-plantuml-url/0.1.0)
+* [PlantUML for Sphinx](http://build-me-the-docs-please.readthedocs.io/en/latest/Using_Sphinx/UsingGraphicsAndDiagramsInSphinx.html)
+* [PlantUML for IntelliJ](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
+* [Graphviz](https://www.graphviz.org/)
