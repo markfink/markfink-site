@@ -115,6 +115,6 @@ All the best, Mark
 ## Resources
 
 * [PlantUML](http://plantuml.com/)
-* [PlantUML for Jekyll](https://www.rubydoc.info/gems/jekyll-plantuml-url/0.1.0)
+* [PlantUML for Jekyll](https://rubygems.org/gems/jekyll-plantuml)
 * [PlantUML for IntelliJ](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
 * [Graphviz](https://www.graphviz.org/)
