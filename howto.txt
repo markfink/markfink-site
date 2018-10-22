@@ -1,7 +1,6 @@
 # using Jekyll
 
 
-
 ## images
 
 scale image to 1089 width and save as png...
