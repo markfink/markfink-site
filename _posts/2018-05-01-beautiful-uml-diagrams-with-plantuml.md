@@ -6,7 +6,7 @@ bigimg: /img/uml-sample.png
 tags: [visualization, software engineering]
 ---
 
-I like the dot and Graphviz tools and used them in projects to visualize complex situaltions or to create overviews. These visualizations are easy to make and there is ample of tool support. For many years I did not use UML diagrams (beyond whiteboards) because it was painful.
+I like the dot and Graphviz tools and used them in projects to visualize complex situations or to create overviews. These visualizations are easy to make and there is ample of tool support. For many years I did not use UML diagrams (beyond whiteboards) because it was painful.
 
 Recently a coworker indicated that the situation changed. PlantUML provides us with decent tooling to get UML diagrams going. I checked for support in IntelliJ, Sphinx, and Jekyll. On top of that PlantUML generates SVG / PNG images for universal use.
 
