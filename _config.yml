@@ -231,8 +231,7 @@ prose:
           help: "Check to publish post, uncheck to hide."
 
 plugins:
-  #- jekyll-plantuml-uml
-  - jekyll-plantuml
+  #- jekyll-plantuml  # not included in Github supported plugin list
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
