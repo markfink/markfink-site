@@ -12,7 +12,7 @@ Recently a coworker indicated that the situation changed. PlantUML provides us w
 
 There are two PlantUML features which make it very productive:
 
-* diagrams can we quickly written in any text editor (i.e. use text files) 
+* diagrams can be quickly written in any text editor (by use of text files) 
 * no need to bother tweaking the layout of elements - PlantUML finds the best position of diagram elements for you
 
 
