@@ -3,7 +3,7 @@ layout: post
 title: A walk in the clouds
 subtitle: MQTT on ESP-32
 bigimg: /img/chris-ried-534420-unsplash.png
-tags: [microcontroller, iot, esp32]
+tags: [microcontroller, cloud, iot, esp32]
 ---
 
 Concerning microcontrollers I have been a little "lazy" during the past two years but I tried to at least keep an eye on what was going on. For next year I plan to continue my adventures into microcontroller land. I am currently researching to select the target platform for the upcoming projects.
@@ -44,7 +44,7 @@ First we need to install system prerequisites, ESP-IDF and xtensa. I install eve
 
 ## Some prerequisites
 
-I am on Arch Linux... You need to find out how to install these on your OS. 
+My laptop has Arch Linux... You need to find out how to install these on your OS. 
 
 On arch installing system prerequisites is easy enough:
 
@@ -131,7 +131,7 @@ Clone the examples from my Github repository esp32:
 
 ``` bash
 $ cd ~/esp
-$ git clone https://github.com/markfink/esp32.git
+$ git clone https://github.com/finklabs/esp32.git
 ```
 
 
