@@ -8,7 +8,7 @@ tags: [microcontroller, cloud, iot, esp32]
 
 Flashing microcontroller firmware is easy especially if you use ESP-IDF. And this is almost always true as long as you are using a development board with USB connector and the device sits around on your desk. For IoT devices you want over-the-air (OTA) updates. Instead of retrieving the device for update or even visiting it on-site you upload the new firmware to the cloud and send a message to the device with the update request. We are all pretty familiar with the ota update process from using smart phones.
 
-For oto updates we need to prepare two app partitions on the device. First we need to cover some basics...
+For oto updates we need to prepare two app partitions on the device. But first we need to cover some basics...
 
 
 # Partition Table
@@ -71,7 +71,9 @@ Your project code needs to implement the OTA update capability... Setting the pa
 
 My "iot-bme280" projects has OTA update capability:
 
-![Requesting the device to update](/media/esp_ota_update/ode-esp-https-ota.png)
+![Requesting the device to update](/media/esp_ota_update/code-esp-https-ota.png)
+
+(the complete iot-bme280 project code you can find ['here'](https://github.com/finklabs/esp32.git))
 
 
 # Erasing the NVS
