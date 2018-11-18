@@ -20,14 +20,14 @@ For the OTA updates I use the "Factory app, two OTA definitions" mode which I se
 ![Screenshot set 2 OTA partitions](/media/esp_ota_update/screenshot-partition-table.png)
 
 
-I should mention that with the available partition settings in "make menuconfig" there is also a NVS (none volatile storage) partition in place. This is basically a key-value store that you use for data that you want to survive a reset or even an OTA update.
+I should also mention that with the available default partition settings in "make menuconfig" there is also a NVS (none volatile storage) partition put in place on the device. The NVS partition is intended to be used as a key-value store for data that you want to survive a reset or even an OTA update.
 
 This is as far as I go concerning partitions. There is a wealth of features waiting for being discovered like for example encrypted partitions etc. Please consult the excellent documentation.
 
 
 # Many degrees of freedom to download the firmware
 
-I did quite a bit of research and I like this variant best
+Naturally there exists a multitude of ways to provide the firmware binaries to update your esp32 project (even if you are focused on AWS). I did quite a bit of research and I like this variant best:
 
 * create a Amazon *S3 bucket* to store your firmware releases
 * upload the firmware binary to the S3 bucket
@@ -46,7 +46,7 @@ $ make
 
 You find the firmware binary in "build/<your_project>.bin". The binary for OTA update is the same as for "factory app" (quite exiting). So the difference in using OTA updates is in the *partition table* and not the binary.
 
-Then upload to your Amazon S3 bucket.
+Then upload the firmware binary to your Amazon S3 bucket.
 
 
 # Create a presigned URL for firmware download:
@@ -78,7 +78,7 @@ My "iot-bme280" projects has OTA update capability:
 
 # Erasing the NVS
 
-Sometimes it is necessary to erase the flash storage, the build system comes with the right tool for that, too:
+Sometimes it is necessary to erase the NVS flash storage, the build system comes with the right tool for that, too:
 
 
 {% highlight bash %}
