@@ -16,7 +16,7 @@ I am exited that it is now possible to bring all my favorite tools together so I
 * [MQTT](http://mqtt.org/) - lightweight publish / subscribe message transport
 * [AWS (Amazon Web Services)](https://aws.amazon.com/) - awsome cloud platform
 
-Originally I intended to use the Arduino IDE which I liked a lot during the past years. During my research I learned about [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/) which I am going to use. 
+Originally I intended to use the Arduino IDE which I liked a lot during the past years. During my research I learned about [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/) which I am going to use instead. 
 
 In some aspects ESP-IDF is similar to Arduino:
 
