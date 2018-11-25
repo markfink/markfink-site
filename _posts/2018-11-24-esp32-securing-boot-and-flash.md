@@ -75,13 +75,13 @@ With flash encryption the following flash data gets encrypted:
 
 Note that the NVS partition remains unencrypted!
 
-The esp32 has a mechanism to *encrypt the partitions itself during the first boot* but the devices efuse wears out (you can do initial flashing only 4 times / obviously this count does not include ota updates and firmware binaries signed during build). We do NOT use this - I mention it so you understand and avoid using it. Otherwise you eventually render your esp32 unusable. 
+The esp32 has a mechanism to *encrypt the partitions itself during the first boot* but the devices efuse wears out (you can do initial flashing only 4 times / obviously this count does not include ota updates and firmware binaries signed during build). We do NOT use this - I mention it so you understand and avoid using it. Otherwise you might eventually render your esp32 unusable. 
 
 If you configure "Security Features" then by default, "Sign binaries during build" is enabled. With that your "Secure boot private signing key" (we created one above) is used to sign your firmware images when you build it.
 
 I made the following screenshot so you can easily find the options referenced in the text above:
 
-![Screenshot make menuconfig](/media/esp_aws_iot/screenshot_make_menuconfig.png)
+![Screenshot make menuconfig](/media/esp_secure_boot_flash/screenshot_make_menuconfig.png)
 
 Save the configuration and you are all set. If you build and flash your application your firmware binary gets automatically signed and verified.
 
