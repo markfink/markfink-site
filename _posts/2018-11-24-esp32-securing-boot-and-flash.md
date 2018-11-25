@@ -86,6 +86,7 @@ I made the following screenshot so you can easily find the options referenced in
 Save the configuration and you are all set. If you build and flash your application your firmware binary gets automatically signed and verified.
 
 {% highlight bash %}
+$ make bootloader
 $ make flash monitor
 {% endhighlight %}
 
