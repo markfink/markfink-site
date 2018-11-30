@@ -15,5 +15,5 @@ My first version of *epic* is very basic. Purpose of this experiment was to setu
 
 ## Resources
 
-* http://torcs.sourceforge.net/
-* http://www.berniw.org/tutorials/robot/tutorial.html
+* [The Open Racing Car Simulator](http://torcs.sourceforge.net/)
+* [TORCS tutorial](http://www.berniw.org/tutorials/robot/tutorial.html)

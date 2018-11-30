@@ -48,9 +48,9 @@ Mark
 
 ## Resources
 
-* http://en.wikipedia.org/wiki/Reflow_soldering
-* http://www.amazon.com/Mastering-Surface-Mount-Technology-LabworX/dp/1907920129/
-* http://www.rocketscream.com/blog/product/reflow-oven-controller-shield-arduino-compatible/
-* http://en.wikipedia.org/wiki/Solid-state_relay
-* https://learn.adafruit.com/downloads/pdf/thermocouple.pdf
-* https://github.com/markfink/ReflowOvenController.git
+* [Reflow soldering](http://en.wikipedia.org/wiki/Reflow_soldering
+* [Surface Mount Technology](http://www.amazon.com/Mastering-Surface-Mount-Technology-LabworX/dp/1907920129/
+* [arduino controller shield](http://www.rocketscream.com/blog/product/reflow-oven-controller-shield-arduino-compatible/
+* [Solid state relay](http://en.wikipedia.org/wiki/Solid-state_relay
+* [thermocouple](https://learn.adafruit.com/downloads/pdf/thermocouple.pdf
+* [my code](https://github.com/markfink/ReflowOvenController.git
