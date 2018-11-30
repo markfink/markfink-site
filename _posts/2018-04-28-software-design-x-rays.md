@@ -2,7 +2,7 @@
 layout: post
 title: Book review "Software Design X-Rays"
 subtitle: Adam Tornhill, 2018
-bigimg: /img/ricardo-resende-437822-unsplash.png
+bigimg: /img/rawpixel-472352-unsplash.png
 tags: [book review, metrics, visualization, software engineering, test automation]
 ---
 

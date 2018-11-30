@@ -52,13 +52,11 @@ switch:
 emulated_hue:
   type: alexa
   expose_by_default: true
-```
+{% endhighlight %}
 
 Start Home Assistant service on the RPI:
 
 {% highlight bash %}
-{% endhighlight %}
-```bash
 $ cd /srv/homeassistant
 $ . ./homeassistant_venv/bin/activate
 $ hass

@@ -15,8 +15,8 @@ In the context of software quality one of the topics I often discuss with manage
 
 Sometimes a project carries all the insignia for agile development but is in reality working towards a big event in the near future like a public go live (Big-Bang). I certainly understand that a company needs to introduce a product to the market as a big marketing event and does not want to release an unfinished product. Therefore it is crucial for success to separate development processes and release processes. It is necessary to split the Big-Bang goal into smaller manageable steps (i.e. releases). It is best also to introduce a recurring rhythm for the smaller development cycles (i.e. sprints) - I like the term cadence to express this phenomenon. Having a cadence makes it easy for everybody to understand what is going on because the current cycle is very similar in structure to the last one - and the one before (think release cycle of Linux distributions). So project communication can focus on the *why* and *what* aspects - which is way more efficient over planning and communicating *how* each an every step needs to be done. Of cause it all depends the circumstances. Three people might easily manage to communicate everything that is going on - but 20? - or 50? How about 100?
 
-The following article gives an excellent introduction into the develop on cadence topic:
-http://scaledagileframework.com/develop-on-cadence-release-on-demand/
+I found a [great article](http://scaledagileframework.com/develop-on-cadence-release-on-demand/) that gives an excellent introduction for develop on cadence.
+
 
 In nature almost all processes follow a rhythm - so to humans the cadence process concept is a "hard-wired" approach to do things. The following graphic shows some of these processes to help you to get the idea of what I am talking about.
 
