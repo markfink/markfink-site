@@ -3,7 +3,7 @@ layout: post
 title: Find codes used by RF radio control
 subtitle: using ESP-8266
 bigimg: /img/james-sutton-188689-unsplash.png
-tags: [iot, home automation, arduino, microcontroller]
+tags: [iot, arduino, microcontroller]
 ---
 
 This week I bought a set of radio controlled power outlets. My plan is to use [Home Assistant](https://home-assistant.io) (Python, Open Source) to control the power outlets. For that to work I need to find the codes that are used by the remote control's 433 Mhz radio transmitter to switch the power ON and OFF (each power outlet has two codes).

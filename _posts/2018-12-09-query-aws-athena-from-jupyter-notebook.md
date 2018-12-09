@@ -38,7 +38,7 @@ I hope this demonstrates some of the possibilities Jupyter brings to you. You co
 
 Why am I doing this? I want to keep my chickens happy during winter...
 
-![Happy chickens](/media/jupyter_athena/happy_chickens.png){: width=300}
+![Happy chickens](/media/jupyter_athena/happy_chickens.png =300x)
 
 
 I hope this post is helpful to you.
