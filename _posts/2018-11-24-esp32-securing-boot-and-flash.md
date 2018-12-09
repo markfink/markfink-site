@@ -87,6 +87,7 @@ Save the configuration and you are all set. If you build and flash your applicat
 
 {% highlight bash %}
 $ make bootloader
+
 $ make flash monitor
 {% endhighlight %}
 
