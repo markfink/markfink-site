@@ -30,7 +30,7 @@ Now I visualize that data (you see the temperature fluctuations duing the day):
 
 The orange temperature curve is inside the chicken stable, blue curve plots outside temperature (in celsius).
 
-I like to check if the stable protects my chickens enough during the night. We drill into the plot we can see that the temperature is at least 2 degrees higher during the night. Chickens are pretty hardy birds at least old breeds like mine but they do not like draft.
+I like to check if the stable protects my chickens enough during the night. Once we drill into the plot it is clear that the inside temperature is at least 2 °C higher during the night. Chickens are pretty hardy birds at least old breeds like mine but they do not like draft.
 
 ![Screenshot make menuconfig](/media/jupyter_athena/jupyter_zoom_in.png)
 
