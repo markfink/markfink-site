@@ -5,7 +5,7 @@ subtitle: Recording @AutomationGuild 2018
 bigimg: /img/caleb-woods-395775-unsplash.png
 gh-repo: finklabs/fink
 gh-badge: [star, fork]
-tags: [Amazon AWS, DevOps, cloud]
+tags: [amazon aws, devops, cloud]
 ---
 
 I gave a presentation on January 2018 on the topic of "Automated AWS Deployments". I was invited by Joe Colantonio to take part in the conference and present to the @AutomationGuild members.

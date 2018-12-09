@@ -3,7 +3,7 @@ layout: post
 title: ESP-32 over-the-air (OTA) update
 subtitle: with some bits on partitions
 bigimg: /img/alain-pham-248578-unsplash.png
-tags: [microcontroller, cloud, iot, esp32]
+tags: [microcontroller, cloud, iot, esp32, amazon aws]
 ---
 
 Flashing microcontroller firmware is easy especially if you use ESP-IDF. And this is almost always true as long as you are using a development board with USB connector and the device sits around on your desk. For IoT devices you want over-the-air (OTA) updates. Instead of retrieving the device for update or even visiting it on-site you upload the new firmware to the cloud and send a message to the device with the update request. We are all pretty familiar with the ota update process from using smart phones.

@@ -3,7 +3,7 @@ layout: post
 title: Alexa...
 subtitle: turn on the light
 bigimg: /img/johannes-plenio-262511-unsplash.png
-tags: [iot, home automation, python, aws, raspberrypi]
+tags: [iot, python, amazon aws, raspberrypi]
 ---
 
 This week I bought an echo dot device and I wanted to try out some of its home automation features. I used [Home Assistant](https://home-assistant.io) (Python, Open Source).

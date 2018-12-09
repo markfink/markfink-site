@@ -3,7 +3,7 @@ layout: post
 title: Conway's Game of Life
 subtitle: in Javascript
 bigimg: /img/daniel-falcao-418398-unsplash.png
-tags: [software engineering]
+tags: [software engineering, agile]
 ---
 
 In 2012 I worked for [Kuehne & Nagel](http://www.kn-portal.com/) in Hamburg. They do agile software development and follow "Clean Code". They invited me to take part on a company sponsored **code retreat** in April. So I stayed the weekend in Hamburg to hone my programming skills and to spend more time with my new coworkers. Thank you so much for this great opportunity!

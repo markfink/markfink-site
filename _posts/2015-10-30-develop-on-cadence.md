@@ -3,7 +3,7 @@ layout: post
 title: Develop on cadence!
 subtitle: reflections on agile software development
 bigimg: /img/austin-neill-163306-unsplash.png
-tags: [software engineering, test automation, microservice]
+tags: [software engineering, test automation, microservice, agile]
 ---
 
 I work as a freelancer in technical testing, so software quality is something very dear to me. Agile software development tremendously helps with that. But discussions of Agile software development often drift towards development methodologies like Scrum vs. Kanban. I think this discussion is healthy but sometimes misses the point since there is already existing prove that both work but have strength and weaknesses, too. To me Agile has a much more fundamental impact on software projects. In this post I want to discuss two topics that I experienced in the past as key Agile pillars especially for avoiding the Big-Bang software development mode.

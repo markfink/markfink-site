@@ -3,7 +3,7 @@ layout: post
 title: A walk in the clouds
 subtitle: MQTT on ESP-32
 bigimg: /img/chris-ried-534420-unsplash.png
-tags: [microcontroller, cloud, iot, esp32]
+tags: [microcontroller, cloud, iot, esp32, amazon aws]
 ---
 
 Concerning microcontrollers I have been a little "lazy" during the past two years but I tried to at least keep an eye on what was going on. For next year I plan to continue my adventures into microcontroller land. I am currently researching to select the target platform for the upcoming projects.

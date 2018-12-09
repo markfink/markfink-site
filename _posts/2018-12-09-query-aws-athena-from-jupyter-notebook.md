@@ -3,10 +3,10 @@ layout: post
 title: Query AWS Athena
 subtitle: from Jupyter Notebooks
 bigimg: /img/jamie-street-382722-unsplash.png
-tags: [visualization, jupyter, iot]
+tags: [visualization, iot, amazon aws, python, metrics]
 ---
 
-Jupyter is a powerful tool that should be part of almost anyone's toolbox. At first it might seem to you that Jupyter is a tool that is focused on Data Science and Machine Learning, but actual it is way more than that. Jupyter can be a teaching tool, a presentation tool, a documentation tool, a collaborative tool, and much more. With tools like Jupyter Lab that are easily extensible, there is almost nothing that you couldn't do directly in it. One example I am particularily fond of is given by this great talk on [flipped learning experiences with Jupyter](https://www.youtube.com/watch?v=UpWEUXiPG4k) at the Jupyter Notebook conference that took place in New York a few weeks ago.
+Jupyter is a powerful tool that should be part of almost anyone's toolbox. At first it might seem like Jupyter is a tool that is focused on Data Science and Machine Learning, but actual it is way more than that. Jupyter can be a teaching tool, a presentation tool, a documentation tool, a collaborative tool, and much more. With tools like Jupyter Lab that are easily extensible, there is almost nothing that you couldn't do directly in it. One example I am particularily fond of is given by this great talk on [flipped learning experiences with Jupyter](https://www.youtube.com/watch?v=UpWEUXiPG4k) at the Jupyter Notebook conference that took place in New York a few weeks ago.
 
 There are many different ways to host your Jupyter notebooks. I like to run them on my laptop but you can easily host them yourself. But why bother? Just use [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)!
 
@@ -30,7 +30,7 @@ Now I visualize that data (you see the temperature fluctuations duing the day):
 
 The orange temperature curve is inside the chicken stable, blue curve plots outside temperature (in celsius).
 
-I like to check if the stable protects my chickens enough during the night. As you can see the temperature is at least 2 degrees higher during the night. Chickens are pretty hardy birds at least old breads like mine but they do not like draft.
+I like to check if the stable protects my chickens enough during the night. We drill into the plot we can see that the temperature is at least 2 degrees higher during the night. Chickens are pretty hardy birds at least old breeds like mine but they do not like draft.
 
 ![Screenshot make menuconfig](/media/jupyter_athena/jupyter_zoom_in.png)
 
@@ -38,7 +38,7 @@ I hope this demonstrates some of the possibilities Jupyter brings to you. You co
 
 Why am I doing this? I want to keep my chickens happy during winter...
 
-![Happy chickens](/media/jupyter_athena/happy_chickens.png)
+![Happy chickens](/media/jupyter_athena/happy_chickens.png){: width=300}
 
 
 I hope this post is helpful to you.

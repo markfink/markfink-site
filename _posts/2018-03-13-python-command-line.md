@@ -5,7 +5,7 @@ subtitle: Recording @ Pycon Florence 2017
 bigimg: /img/blake-connally-373084-unsplash.png
 gh-repo: finklabs/whaaaaat
 gh-badge: [star, fork]
-tags: [python, DevOps]
+tags: [python, devops]
 ---
 
 The terminal emulators we run so many of our programming tools in are more powerful than we give them credit for, and the key to that power is understanding the interface. This talk will cover terminal colors and styles, writing to arbitrary portions of the screen, handling signals from the terminal, determining the terminal's dimensions and scrollback buffer behavior.

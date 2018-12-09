@@ -3,7 +3,7 @@ layout: post
 title: QA and DevOps
 subtitle: ...are related
 bigimg: /img/rawpixel-674079-unsplash.png
-tags: [devops, software engineering, test automation]
+tags: [devops, software engineering, test automation, agile]
 ---
 
 DevOps is about operations, right? And about applying tools and processes from the Dev space to operations. But QA? Really? What I personally experience driving DevOps transitions is that continuous integration and operations need to work together. People need to realize that these are two sides of the same coin. One of the biggest challenges is that people often do not see it this way.

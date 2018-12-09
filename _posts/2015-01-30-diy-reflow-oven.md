@@ -3,7 +3,7 @@ layout: post
 title: DIY Reflow Oven
 subtitle: get your own PCB production going!
 bigimg: /img/nicolas-thomas-533958-unsplash.png
-tags: [arduino]
+tags: [arduino, microcontroller]
 ---
 
 One of my new years resolutions was to turn a pizza oven into a SMT reflow oven. Awkward...

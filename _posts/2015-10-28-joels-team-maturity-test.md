@@ -3,7 +3,7 @@ layout: post
 title: test for team and project maturity
 subtitle: by Joel Spolsky
 bigimg: /img/jeffrey-lin-713498-unsplash.png
-tags: [software engineering, test automation]
+tags: [software engineering, test automation, agile]
 ---
 
 Usually I blog here about robotics and microcontrollers so you might not know that I actually work in technical testing. But it is true, at least during daylight. So in my spare time I focus on my private projects. Consequently I do not blog about work but sometimes I stumble about something on the internet that is too good to not share it. Today such an event occured.

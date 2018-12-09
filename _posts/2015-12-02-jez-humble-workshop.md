@@ -3,7 +3,7 @@ layout: post
 title: Jez Humble workshop
 subtitle: on High Performance Organizations
 bigimg: /img/fancycrave-224891-unsplash.png
-tags: [devops, software engineering, test automation]
+tags: [devops, software engineering, test automation, agile]
 ---
 
 This week I am visiting Gotocon Berlin 2015. Today I took part in a crazy workshop by Jez Humble and by crazy I mean crazy-good. We were discussing how difficult it actually is to implement sufficiently good Agile practices in todays enterprises. Jez made multiple reports on what he calls Water-Scrum-Fall. But the workshop was not at all problem-centered. Jez outlined useful approaches on how to improve the situation and gave us many useful references on companies who successfully made the transition. 
