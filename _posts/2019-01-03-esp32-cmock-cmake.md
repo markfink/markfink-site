@@ -3,14 +3,14 @@ layout: post
 title: CMock
 subtitle: unit testing ESP-32 code
 bigimg: /img/susan-mohr-572895-unsplash.png
-tags: [microcontroller, cloud, iot, esp32, test automation]
+tags: [microcontroller, esp32, test automation]
 ---
 
 Today I will let you in on a secret... on how to test embedded C programs. The unit testing framework [Unity](https://github.com/ThrowTheSwitch/Unity) is already part of [ESP-IDF](https://github.com/espressif/esp-idf) and is pretty straight forward to use.
 
 But we embedded software developers usually need to deal with hardware dependencies. Hardware dependencies? We typically see one of the following:
 
-* skip unit testing altogether - it is just too damn hard (but not for me and you...)
+* skip unit testing altogether - it is just too damn hard (but not for you and me...)
 * use a mock framework
 
 We use mocks to replace hardware dependencies with code. Often the hardware is not ready or we want to test on an environment where is not available (like for example continuous integration).
@@ -78,7 +78,7 @@ get_filename_component(header_abs_path ../include/dep_demo.h REALPATH )
 create_mock(mock_dep_demo ${header_abs_path})
 {% endhighlight %}
 
-I left out some details for brevity. [Here you can find the complete sample code including CMock.](https://github.com/finklabs/esp32/tree/master/cmock_demo)
+I left out some details for brevity. [Here you can find the complete sample code including CMock source and build files.](https://github.com/finklabs/esp32/tree/master/cmock_demo)
 
 I opened a [ticket with Espressif](https://github.com/espressif/esp-idf/issues/2900) and I hope that they will include CMock in the standard ESP-IDF release.
 
