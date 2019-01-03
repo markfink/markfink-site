@@ -13,7 +13,7 @@ But we embedded software developers usually need to deal with hardware dependenc
 * skip unit testing altogether - it is just too damn hard (but not for you and me...)
 * use a mock framework
 
-We use mocks to replace hardware dependencies with code. Often the hardware is not ready or we want to test on an environment where is not available (like for example continuous integration).
+We use mocks to replace hardware dependencies with code. Often the hardware is not yet ready or we want to test on an environment where is not available (like for example continuous integration).
 
 To mock out hardware dependency makes writing unit-tests much easier. We focus on testing the code of our embedded application using the interface of the hardware dependency.
 
@@ -61,7 +61,7 @@ TEST_CASE("test cmp_demo init", "[demo]")
 }
 {% endhighlight %}
 
-Our test includes **mocks/mock_dep_demo.h** and we tell it how the mock should behave "dep_init_ExpectAndReturn(42, 420);".
+Our test includes **mocks/mock_dep_demo.h** and we tell the mock how it should behave "dep_init_ExpectAndReturn(42, 420);".
 
 To make this work all we need to do is to tell the build system to create the mock based on the interface. Just add this to **CMakeLists.txt**:
 
@@ -90,6 +90,6 @@ All the best, Mark
 
 * [Test Driven Development for Embedded C](https://www.amazon.com/Driven-Development-Embedded-Pragmatic-Programmers/dp/193435662X/)
 * [ThrowTheSwitch](http://www.throwtheswitch.org/)
-* [Unity](https://github.com/ThrowTheSwitch/Unity)
-* [CMock](https://github.com/ThrowTheSwitch/CMock)
+* [Unity on Github](https://github.com/ThrowTheSwitch/Unity)
+* [CMock on Github](https://github.com/ThrowTheSwitch/CMock)
 * [Complete CMock sample code](https://github.com/finklabs/esp32/tree/master/cmock_demo)
