@@ -8,14 +8,14 @@ tags: [microcontroller, esp32, test automation]
 
 Today I will let you in on a secret... on how to test embedded C programs. The unit testing framework [Unity](https://github.com/ThrowTheSwitch/Unity) is already part of [ESP-IDF](https://github.com/espressif/esp-idf) and is pretty straight forward to use.
 
-But we embedded software developers usually need to deal with hardware dependencies. Hardware dependencies? We typically see one of the following:
+But when working with embedded devices we software developers usually need to deal with hardware dependencies. Hardware dependencies? When dealing with hardware dependencies we typically see one of the following:
 
-* skip unit testing altogether - it is just too damn hard (but not for you and me...)
+* skip unit testing altogether - it is just too damn hard (not any more...)
 * use a mock framework
 
 We use mocks to replace hardware dependencies with code. Often the hardware is not yet ready or we want to test on an environment where is not available (like for example continuous integration).
 
-To mock out hardware dependency makes writing unit-tests much easier. We focus on testing the code of our embedded application using the interface of the hardware dependency.
+Mocking out hardware dependency makes writing unit-tests much easier. We focus on testing the code of our embedded application using the interface of the hardware dependency.
 
 Sure, we need to test our code with the real hardware dependency. But this is not unit-testing - this is integration-testing.
 
