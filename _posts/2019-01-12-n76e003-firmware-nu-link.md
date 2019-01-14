@@ -1,12 +1,12 @@
 ---
 layout: post
-title: N76E003
+title: Nuvoton N76
 subtitle: flash firmware using Linux
 bigimg: /img/arthur-aldyrkhanov-566881-unsplash.png
 tags: [microcontroller, n76]
 ---
 
-If you know anything about microcontrollers you most likely know that blinking a LED on the microcontroller development board is what we call a **hello-world** program for other technologies. Over the years I have done this exercise 10 times or more using different microcontrollers and boards. Once the board-specifics, compiler configurations, flashing firmware are all figured out, one can take a faster pace but without this first steps one can not do anything with the microcontroller at all. And for sure each microcontroller offers its unique challenges. Today I have spent the better part of the day figuring out how to get started with the N76E003.
+If you know anything about microcontrollers you most likely know that blinking a LED on the microcontroller development board is what we call a **hello-world** program for other technologies. Over the years I have done this exercise 10 times or more using different microcontrollers and boards. Once the board-specifics, compiler configurations, flashing firmware are all figured out, one can take a faster pace but without this first steps one can not do anything with the microcontroller at all. And for sure each microcontroller offers its unique challenges. Today I have spent the better part of the day figuring out how to get started with the N76 on Linux.
 
 ![blink N76](/media/n76_numicro_flash/n76e003_linux_upload_firmware.gif)
 
@@ -16,7 +16,7 @@ Big chip manufacturers often provide proprietary IDEs, frameworks and such but i
 
 Enough said, lets look into microcontroller hardware! I use the Nuvoton NuLink programmer (red component in the photo above) and a N76E003 development board (blue component).
 
-One of the challenges I faced today with this new board was that unlike other development boards the one for N76 has the onboard LED connected via jumper J2. J2 is missing in this version and I had to solder in a bridge for J2 before the LED could be used.
+One of the challenges I faced today with this new board was that unlike other development boards the one for N76 has the onboard LED connected via jumper J2. J2 is missing in this version and I had to solder in a bridge for J2 before the onboard LED could be used.
 
 The nu-link programmer is connected to the laptop via USB. For it to work on Arch Linux I had to add the "/etc/udev/rules.d/88-nulink.rules" file with config:
 
@@ -71,7 +71,7 @@ void setup(void)
 {% endhighlight %}
 
 
-The rest of the code is a quick & dirty port of Nuvotons sample for Keil. So far I ported only the parts I needed for the blink sample. [Here you can find this hack including Makefile.](https://github.com/finklabs/n76/tree/master/blink_first_draft).
+The rest of the code is my quick & dirty port of Nuvoton's sample for Keil. So far I ported only the parts I needed for this blink sample. [Here you can find this hack including Makefile](https://github.com/finklabs/n76/tree/master/blink_first_draft).
 
 ![Using the NuMicro software to flash the firmware](/media/n76_numicro_flash/numicro_falsh_N76E003.png)
 
@@ -79,7 +79,7 @@ Running NuMicro on Linux using wine overall is at best a strange experience. The
 
 Like I said before I hope for better Linux tooling to support flashing the N76 from the command line. Something as good as for example [stm8flash](https://github.com/vdudouyt/stm8flash) for the STM8s. Till then I hope somebody comes up with a better way of using the NuMicro on Linux by fine tuning wine or using Docker...
 
-Don't get me wrong if I was using the N76E003 professionally, I would follow Jay's suggestion to buy a Windows laptop and a Keil license. For writing some small programs in my spare time this will do for now.
+Don't get me wrong if I was using the N76 professionally, I would follow Jay's suggestion to buy a Windows laptop and a Keil license. For writing some small programs in my spare time this will do for now.
 
 
 I hope this post is helpful to you.
