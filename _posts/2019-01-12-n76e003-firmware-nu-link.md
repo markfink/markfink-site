@@ -6,7 +6,7 @@ bigimg: /img/arthur-aldyrkhanov-566881-unsplash.png
 tags: [microcontroller, n76]
 ---
 
-If you know anything about microcontrollers you most likely know that blinking a LED on the microcontroller development board is what we call a **hello-world** program for other technologies. Over the years I have done this exercise 10 times or more using different microcontrollers and boards. Once the board-specifics, compiler configurations, flashing firmware are all figured out, one can take a faster pace but without this first steps one can not do anything with the microcontroller at all. And for sure each microcontroller offers its unique challenges. Today I have spent the better part of the day figuring out **how to get started with the N76 on Linux**.
+If you know anything about microcontrollers you most likely know that **blinking a LED** on the microcontroller development board is what we call a **hello-world** program for other technologies. Over the years I have done this exercise 10 times or more using different microcontrollers and boards. Once the board-specifics, compiler configurations, flashing firmware are all figured out, one can take a faster pace but without this first steps one can not do anything with the microcontroller at all. And for sure each microcontroller offers its unique challenges. Today I have spent the better part of the day figuring out **how to get started with the N76 on Linux**.
 
 ![blink N76](/media/n76_numicro_flash/n76e003_linux_upload_firmware.gif)
 
