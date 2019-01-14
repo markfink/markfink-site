@@ -71,7 +71,7 @@ void setup(void)
 {% endhighlight %}
 
 
-The rest of the code is my quick & dirty port of Nuvoton's sample for Keil. So far I ported only the parts I needed for this blink sample. [Here you can find this hack including Makefile](https://github.com/finklabs/n76/tree/master/blink_first_draft).
+The rest of the code is my **quick & dirty port** of Nuvoton's sample for Keil. So far I ported only the parts I needed for this blink sample. [Here you can find this hack including Makefile](https://github.com/finklabs/n76/tree/master/blink_first_draft).
 
 ![Using the NuMicro software to flash the firmware](/media/n76_numicro_flash/numicro_falsh_N76E003.png)
 
@@ -79,7 +79,7 @@ Running **NuMicro on Linux using wine** overall is at best a strange experience.
 
 Like I said before I **hope for better Linux tooling** to support flashing the N76 from the command line. Something as good as for example [stm8flash](https://github.com/vdudouyt/stm8flash) for the STM8s. Till then I hope somebody comes up with a better way of using the NuMicro on Linux by fine tuning wine or using Docker...
 
-Don't get me wrong if I was using the N76 professionally, I would follow Jay's suggestion to buy a Windows laptop and a Keil license. For writing some small programs in my spare time this will do for now.
+Don't get me wrong if I was using the N76 **professionally**, I would follow Jay's suggestion to **buy a Windows laptop and a Keil license**. For writing some small programs in my spare time this will do for now.
 
 
 I hope this post is helpful to you.
