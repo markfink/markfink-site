@@ -15,22 +15,21 @@ I need to split the Json parser into multiple parts. Mostly because I do not lik
 Some sample Json data to parse:
 
 {% highlight txt %}
-static const char *JSON_STRING =
-  "{"
-    "\"sense\": ["
-      "{"
-        "\"name\": \"inside\","
-        "\"component\": \"bme280\""
-      "},"
-      "{"
-        "\"name\": \"outside\","
-        "\"component\": \"bme280\","
-        "\"params\": [\"119\", \"120\"]"
-      "}"
-    "],"
-    "\"user\": \"mark\","
-    "\"unex\": \"pected\""
-  "}";
+  {
+    "sense": [
+      {
+        "name": "inside",
+        "component": "bme280"
+      },
+      {
+        "name": "outside",
+        "component": "bme280",
+        "params": ["119", "120"]
+      }
+    ],
+    "user": "mark",
+    "unex": "pected"
+  }
 {% endhighlight %}
 
 
@@ -49,8 +48,8 @@ jsmn_init(&p);
 r = jsmn_parse(&p, JSON_STRING, strlen(JSON_STRING), tokens, sizeof(tokens)/sizeof(tokens[0]));
 if (r < 0)
 {
-	printf("Failed to parse JSON: %d\n", r);
-	return EXIT_FAILURE;
+  printf("Failed to parse JSON: %d\n", r);
+  return EXIT_FAILURE;
 }
 {% endhighlight %}
 
@@ -104,4 +103,4 @@ All the best, Mark
 ## Resources
 
 * [jsmn](https://github.com/zserge/jsmn)
-* [Comparison and microbenchmark of C Json parsers](https://translate.google.com/translate?hl=en&sl=ru&u=https://lionet.livejournal.com/118853.html)
+* [comparison and microbenchmark of C Json parsers](https://translate.google.com/translate?hl=en&sl=ru&u=https://lionet.livejournal.com/118853.html)
