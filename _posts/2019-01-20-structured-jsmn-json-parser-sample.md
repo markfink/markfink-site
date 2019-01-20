@@ -6,9 +6,9 @@ bigimg: /img/ryoji-iwata-669950-unsplash.png
 tags: [microcontroller, esp32]
 ---
 
-I recently had to **parse Json data** on a small embedded system. When looking for tools to help with this, I found and loved Serge Zaitsev's **jsmn** (pronounced as "Jasmine").
+I recently had to **parse Json data** on a small embedded system. When looking for tools to help with this, I found and loved Serge Zaitsev's **jsmn** (pronounced "Jasmine").
 
-Jsmn is written in C and considered one if not the most efficient parsers in the field. Its philosophy is to be as simple as possible: no dynamic memory allocation, no callbacks, and absolutely no dependences. It's a great piece of software, but it is a bit light on examples especially on parsing bigger json data structures. I got stuck and posted a [question on how others do structure their parsers](https://github.com/zserge/jsmn/issues/150) but so far nobody else shared a working solution.
+Jsmn is written in C and considered one if not the most efficient parsers in the field. Its philosophy is to be as simple as possible: no dynamic memory allocation, no callbacks, and absolutely no dependences. It's a great piece of software, but it is a bit light on examples especially for parsing bigger json data structures. I got stuck and posted a [question on how others do structure their parsers](https://github.com/zserge/jsmn/issues/150) but so far nobody else shared a working solution.
 
 I need to split the Json parser into multiple parts. Mostly because I do not like big junks of code and I need to be able to unit-test smaller aggregates of my code like specialized parser functions.
 
@@ -16,25 +16,25 @@ Some sample Json data to parse:
 
 {% highlight txt %}
 static const char *JSON_STRING =
-	"{"
-      "\"sense\": ["
-        "{"
-          "\"name\": \"inside\","
-          "\"component\": \"bme280\""
-        "},"
-        "{"
-          "\"name\": \"outside\","
-          "\"component\": \"bme280\","
-          "\"params\": [\"119\", \"120\"]"
-        "}"
-      "],"
-      "\"user\": \"mark\","
-      "\"unex\": \"pected\""
-    "}";
+  "{"
+    "\"sense\": ["
+      "{"
+        "\"name\": \"inside\","
+        "\"component\": \"bme280\""
+      "},"
+      "{"
+        "\"name\": \"outside\","
+        "\"component\": \"bme280\","
+        "\"params\": [\"119\", \"120\"]"
+      "}"
+    "],"
+    "\"user\": \"mark\","
+    "\"unex\": \"pected\""
+  "}";
 {% endhighlight %}
 
 
-I studied all jsmn samples on the web I could find but did not find a simple solution I liked so I had to come up with something myself. The solution I came up with is really, really simple - for me this is almost always a good indicator for a good solution. So I wrote this post to share it with you.
+I studied all jsmn samples on the web I could find but did not find a simple solution I liked so I had to come up with something myself. The solution I came up with is really, really simple - in the past this was almost always a good indicator for a good solution. So I wrote this post to share it with you.
 
 First I parse the Json data into an **array of tokens**:
 
@@ -63,9 +63,10 @@ parse_actor_object(&i, tokens);
 
 Each parser function advances the **index i** into the **tokens array**. Since C has no pass-by-reference I need to hand in a pointer to i.
 
-Output from running the test case on esp32:
+I print out a lot of information so it is easy to see what is going on from the output of running the test case on esp32:
 
 {% highlight txt %}
+...
 Running jsmn demo split parser into smaller parts test...
 root_size: 21
 - Sense:
@@ -91,7 +92,6 @@ Unexpected key: unex
 Unexpected key: pected
 /home/mark/devel/10_esp32/esp32/jsmn_demo/test/main/test_app.c:159:jsmn demo split parser into smaller parts test:PASS
 {% endhighlight %}
-
 
 I commited the [complete sample code to my github](https://github.com/finklabs/esp32/blob/master/jsmn_demo/test/main/test_app.c) - feel free to take a look.
 
