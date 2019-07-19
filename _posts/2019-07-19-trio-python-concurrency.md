@@ -3,14 +3,14 @@ layout: post
 title: Trio – a friendly Python library
 subtitle: for async concurrency and I/O
 bigimg: /img/rob-wingate-nQYqEwimp5o-unsplash.png
-tags: [python, software-engineering]
+tags: [python, software engineering]
 ---
 
 Our world is inherently parallel and I am convinced that our programming languages must provide adequate abstractions so we can model our world while keeping our sanity. Python always had many tools, frameworks and techniques for implementing concurrent behaviour. But there was never an obvious way to do things (I wrote about [Python concurrency](https://www.mark-fink.de/2016-06-12-please-remove-the-gil/) earlier).
 
 In 2016 I learned Golang because of its superior concurrency mechanisms. I like Golang and there is nothing wrong with it but I still do most of my work in Python. So this solution did not really work out for me.
 
-Python2 will not be maintained after 2019. This marks a major milestone for the Python community and we will celebrate the happy completion of the lifecycle this great technology. Looking forward many of us can now drop Python2 compatibility which opens up access to new Python3 features. In this spirit I looked at Python concurrency again...
+Python2 will not be maintained after 2019. This marks a major milestone for the Python community and we will celebrate the happy lifecycle completion of this great technology. Looking forward many of us can now drop Python2 compatibility which opens up access to new Python3 features. In this spirit I looked at Python concurrency again...
 
 I found this great Pycon talk by Nathaniel J. Smith (I particularly liked the 50+ year history outline on the problem):
 
