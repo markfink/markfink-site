@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The internet does not forget
-subtitle: and I cleanup my github account
+subtitle: and I am going to cleanup my github account
 bigimg: /img/oliver-hale-oTvU7Zmteic-unsplash.png
 tags: [python, open source]
 ---
