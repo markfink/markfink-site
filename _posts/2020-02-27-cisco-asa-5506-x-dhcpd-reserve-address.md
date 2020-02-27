@@ -8,7 +8,7 @@ tags: [devops]
 
 Adding static IP to Mac address mapping to your firewalls dhcpd configuration is now supported on ASA version 9.13(1) and later.
 
-You need to do the configuration on the command line since it is not yet available in the ASDM gui:
+You need to do the configuration on the command line since this feature is not yet available in the ASDM gui:
 
 
 ``` text
