@@ -16,7 +16,7 @@ Tuya-Convert consists of multiple parts. You need a Raspberry-Pi to act as a Wif
 
 If you are curious for more details (35CC presentation - auf deutsch, an english translation is available, too):
 
-![Presentation 35CC (deutsch)](https://www.youtube.com/watch?v=urnNfS6tWAY)
+[![Presentation 35CC (deutsch)]((https://img.youtube.com/vi/urnNfS6tWAY/0.jpg))](https://www.youtube.com/watch?v=urnNfS6tWAY)
 
 The firmware used to upload to the devices usually is tasmota but you totally are able to bake and use your own firmware. Tasmota comes with all you usually need (documentation, community, forum, ...) and makes it easy to integrate the smart device with an MQTT server (like for example ioBroker).
 
