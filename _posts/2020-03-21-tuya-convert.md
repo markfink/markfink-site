@@ -14,9 +14,9 @@ The [Tuya-Convert](https://github.com/ct-Open-Source/tuya-convert) project is gr
 
 Tuya-Convert consists of multiple parts. You need a Raspberry-Pi to act as a Wifi access point and a donor-device (wemos d1 mini or similar/ your mobile phone). This whole setup tricks the smart device into accepting an over-the-air (OTA) update with your desired firmware. Currently most smart devices (>11.000 products) are based on Tuya TYWE3S (a miniature ESP8266 board) - the scope of Tuya-Convert is currently limited to this environment. So if you plan to go shopping for IoT devices make sure they are based on TYWE3S!
 
-If you are curious for more details (35CC presentation - auf deutsch, an english translation is available, too):
+If you are curious for more details (35C3 presentation - auf deutsch, an english translation is available, too):
 
-[![Presentation 35CC (deutsch)](https://img.youtube.com/vi/urnNfS6tWAY/0.jpg)](https://www.youtube.com/watch?v=urnNfS6tWAY)
+[![Presentation 35C3 (deutsch)](https://img.youtube.com/vi/urnNfS6tWAY/0.jpg)](https://www.youtube.com/watch?v=urnNfS6tWAY)
 
 The firmware used to upload to the devices usually is tasmota but you totally are able to bake and use your own firmware. Tasmota comes with all you usually need (documentation, community, forum, ...) and makes it easy to integrate the smart device with an MQTT server (like for example ioBroker).
 
