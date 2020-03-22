@@ -20,7 +20,7 @@ If you are curious for more details (35CC presentation - auf deutsch, an english
 
 The firmware used to upload to the devices usually is tasmota but you totally are able to bake and use your own firmware. Tasmota comes with all you usually need (documentation, community, forum, ...) and makes it easy to integrate the smart device with an MQTT server (like for example ioBroker).
 
-The whole situation totally reminds me of the painful browser wars that escalated into the U.S. antitrust courts stopping Micro$oft from locking out other browser vendors from the operating system they sold. This situation took forever to resolve and caused a lot of pain for users, browser vendors and developers. I hope that at least some of the IoT device manufacturers are way more clever than Micro$oft was at the time.
+The whole situation totally reminds me of the painful browser wars that escalated into the U.S. antitrust courts stopping Micro$oft from locking out other browser vendors from computers that came bundled with their operating system. This situation took forever to resolve and caused a lot of pain for users, browser vendors and developers. I hope that at least some of the IoT device manufacturers are way more clever than Micro$oft was at the time. Go open source!
 
 Thanks to the Tuya-Convert and Tasmota developers I am looking forward to great times using my liberated IoT devices.
 
