@@ -2,7 +2,7 @@
 layout: post
 title: Ending the IoT cloud bundling battle
 subtitle: how Open Source stops your light bulbs from calling home
-bigimg: /img/damir-spanic-lb7q0iLOaSE-unsplash.png
+bigimg: /img/kristina-v-c77dIthd_Tk-unsplash.png
 tags: [iot, microcontroller]
 ---
 
