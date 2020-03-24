@@ -42,7 +42,7 @@ $ esptool.py  --port /dev/ttyUSB0 --baud 460800 write_flash -fm dio --flash_size
 
 # Terminal
 
-Normally during development I power my wemos D1 mini boards via a USB mini cable. Conveniently a serial connection is available using the same cable to check what is going on on the board.
+Normally during development I power my wemos D1 mini boards via a USB mini cable. Conveniently a serial connection is available using the same cable so I can check what is going on on the board.
 
 I use picocom (because screen gives me some trouble):
 
