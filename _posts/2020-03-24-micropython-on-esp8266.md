@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Micropython on ESP8266
-subtitle: kickoff a homeautomation 
+subtitle: kickoff homeautomation 
 bigimg: /img/bbc-micro-bit.png
 tags: [python, iot, microcontroller]
 ---
@@ -46,7 +46,9 @@ Normally during development I power my wemos D1 mini boards via a USB mini cable
 
 I use picocom (because screen gives me some trouble):
 
+``` bash
 $ picocom --baud 115200 /dev/ttyUSB0
+```
 
 exit with CTRL-A-X
 
@@ -62,7 +64,9 @@ I am currently using adafruit-ampy because it has the nicer command line.
 
 To install ampy:
 
+``` bash
 $ pip install adafruit-ampy
+```
 
 
 # Pinout
@@ -94,7 +98,9 @@ while True:
 
 The 'run' command runs the program on the ESP8266 one time only. 
 
+``` bash
 $ ampy --port /dev/ttyUSB0 run main.py
+```
 
 
 # Install the script on the board
@@ -102,11 +108,15 @@ $ ampy --port /dev/ttyUSB0 run main.py
 Once you reset or power down the board the previous run ends and your script is gone. 
 To make it more permanent (and install the script on the board) do the following:
 
+``` bash
 $ ampy --port /dev/ttyUSB0 put main_blinker.py main.py
+```
 
 You can use picocom to check what is going on:
 
+``` bash
 $ picocom --baud 115200 /dev/ttyUSB0
+```
 
 exit with CTRL-A-X
 
@@ -115,7 +125,9 @@ If you follow the convention to name the script "main.py" for uploading that is 
 
 Removing the script is simple, too:
 
+``` bash
 $ ampy --port /dev/ttyUSB0 rm main.py
+```
 
 
 # Production setup
